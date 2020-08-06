@@ -1,0 +1,16 @@
+spring:
+  # 数据源设置
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/shirotest?useUnicode=true&characterEncoding=UTF-8&useOldAliasMetadataBehavior=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  redis:
+    password:
+    timeout: 2000s
+
